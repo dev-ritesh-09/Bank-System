@@ -1,7 +1,7 @@
 #creating database.
 
 import mysql.connector
-mydb=mysql.connector.connect (host="localhost",user="root", passwd="#ritesh@09")
+mydb=mysql.connector.connect (host="localhost",user="root", passwd="#")
 mycursor=mydb.cursor(buffered = True)
 mycursor.execute("create database if not exists library1")
 mycursor.execute("use mybank")
